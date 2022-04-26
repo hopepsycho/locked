@@ -22,19 +22,19 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
-            InlineKeyboardButton('🤖𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃🤖', url=f"https://t.me/HAASHIM_999")
+            InlineKeyboardButton('🤖𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃🤖', url=f"https://t.me/PSY_V2_BOT")
             ],[
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/+0pCrKKfTCAZlYmZl")
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/+CxBsj7q27f4yZDRl")
             ],[
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/TrockersDiscussions")
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/+CxBsj7q27f4yZDRl")
             ],[
-            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/TrockersUpdates")
+            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/kunjappansupportez")
             ],[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/TrockersSupport")
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/kunjappansupport")
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.PRIVATEBOT_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
-        await asyncio.sleep(2) # 😢 https://github.com/Aadhi000/Ajax-Extra-Features/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
+        await asyncio.sleep(2) # 😢 https://github.com/kunjappan-PSY/locked/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ADD ME TO YOUR GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡JOIN MOVIES CHANNEL⚡', url='https://t.me/+0pCrKKfTCAZlYmZl'),
-            InlineKeyboardButton('⚡MOVIES REQUEST GROUP⚡', url='https://t.me/TrockersDiscussions')
+            InlineKeyboardButton('⚡JOIN MOVIES CHANNEL⚡', url='https://t.me/+CxBsj7q27f4yZDRl'),
+            InlineKeyboardButton('⚡MOVIES REQUEST GROUP⚡', url='https://t.me/kunjappansupportez')
             ],[      
             InlineKeyboardButton('EXTRA FEATURES 👾', callback_data='help'),
             InlineKeyboardButton('ABOUT ME', callback_data='about')
@@ -79,7 +79,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**JOIN OUR TrockersLinks TO USE THIS BOT🤖!**",
+            text="**JOIN OUR kunjappansupportez TO USE THIS BOT🤖!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -88,8 +88,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ADD ME TO YOUR GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡JOIN MOVIES CHANNEL⚡', url='https://t.me/+0pCrKKfTCAZlYmZl'),
-            InlineKeyboardButton('⚡MOVIES REQUEST GROUP⚡', url='https://t.me/TrockersDiscussions')
+            InlineKeyboardButton('⚡JOIN MOVIES CHANNEL⚡', url='https://t.me/+CxBsj7q27f4yZDRl'),
+            InlineKeyboardButton('⚡MOVIES REQUEST GROUP⚡', url='https://t.me/+CxBsj7q27f4yZDRl')
             ],[      
             InlineKeyboardButton('EXTRA FEATURES 👾', callback_data='help'),
             InlineKeyboardButton('ABOUT ME', callback_data='about')
@@ -319,7 +319,7 @@ async def delete(bot, message):
         if result.deleted_count:
             await msg.edit('**𝙵𝙸𝙻𝙴 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙳𝙴𝙻𝙴𝚃𝙴𝙳**')
         else:
-            # files indexed before https://github.com/EvamariaTG/EvaMaria/commit/f3d2a1bcb155faf44178e5d7a685a1b533e714bf#diff-86b613edf1748372103e94cacff3b578b36b698ef9c16817bb98fe9ef22fb669R39 
+            # files indexed before https://github.com/hopepsycho/kunjappan2.0/commit/f3d2a1bcb155faf44178e5d7a685a1b533e714bf#diff-86b613edf1748372103e94cacff3b578b36b698ef9c16817bb98fe9ef22fb669R39 
             # have original file name.
             result = await Media.collection.delete_many({
                 'file_name': media.file_name,
