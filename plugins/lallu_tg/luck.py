@@ -1,4 +1,4 @@
-# code added by @lallu_tg
+# code added by @PSY_OF_TG
 # use with proper credits
 
 
