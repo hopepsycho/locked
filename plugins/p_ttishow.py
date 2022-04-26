@@ -39,13 +39,13 @@ async def save_group(bot, message):
         buttons = [[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴', url=f"https://t.me/{temp.U_NAME}?start=help")
             ],[
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/+0pCrKKfTCAZlYmZl")
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/+CxBsj7q27f4yZDRl")
             ],[
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/TrockersDiscussions")
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/+CxBsj7q27f4yZDRl")
             ],[
-            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/TrockersUpdates")
+            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f"https://t.me/kunjappansupportez")
             ],[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/TrockersSupport")
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', url=f"https://t.me/kunjappansupport")
             ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
