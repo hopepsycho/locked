@@ -5,7 +5,6 @@ from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp
-from Script import script
 from pyrogram.errors import ChatAdminRequired
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
